@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">batSuKienButtem</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="khauhieu">Chắp Cánh Các Ước Mơ</string>
+
+    <string name="signinwith"> Sign in with </string>
+
+    <string name="title_activity_taikhoan_activiti">taikhoan_activiti</string>
+</resources>

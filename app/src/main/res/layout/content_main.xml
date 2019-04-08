@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ContentActiviti"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView android:layout_height="@dimen/chieucaohinh" android:layout_width="@dimen/chieuruonghinh" android:src="@drawable/logosv" android:layout_marginTop="@dimen/margirTop" android:layout_gravity="center" android:id="@+id/ivhoiSV"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:textStyle="italic" android:textSize="@dimen/kichthuocchu15" android:textColor="@color/mauchu" android:text="@string/khauhieu" />
+
+
+    -<LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" android:paddingTop="@dimen/canle20" android:gravity="center">
+
+    <Button android:layout_height="wrap_content" android:layout_width="150dp" android:id="@+id/btfb" android:textColor="#fff" android:text="@string/signinwith" android:textAllCaps="false" android:paddingRight="@dimen/canle20" android:paddingLeft="@dimen/canle20" android:drawablePadding="@dimen/canle10" android:drawableRight="@drawable/facebook" android:background="#1A569C" android:layout_marginRight="20dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="150dp" android:id="@+id/bttwitter" android:textColor="#fff" android:text="@string/signinwith" android:textAllCaps="false" android:paddingRight="@dimen/canle20" android:paddingLeft="@dimen/canle20" android:drawablePadding="@dimen/canle10" android:drawableRight="@drawable/twitter" android:background="#009ECA"/>
+
+</LinearLayout>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:textColor="#000000" android:text="or" android:padding="@dimen/canle10"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/etEmail" android:padding="@dimen/canle10" android:drawablePadding="@dimen/canle10" android:background="@drawable/duongvien_goctron_textview" android:layout_marginRight="@dimen/canle10" android:hint="Email" android:drawableLeft="@drawable/user" android:layout_marginLeft="@dimen/canle10" android:inputType="textEmailAddress"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="@dimen/canle10" android:id="@+id/etPass" android:padding="@dimen/canle10" android:drawablePadding="@dimen/canle10" android:background="@drawable/duongvien_goctron_textview" android:layout_marginRight="@dimen/canle10" android:hint="Password" android:drawableLeft="@drawable/password" android:layout_marginLeft="@dimen/canle10" android:inputType="textPassword" />
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_marginTop="@dimen/canle10" android:layout_gravity="center" android:id="@+id/btDN" android:textSize="@dimen/kichthuocchu20" android:textColor="@color/mauchu" android:text="Register" android:paddingTop="@dimen/canle10" android:textAllCaps="false" android:background="@drawable/duongvien_goctron" android:layout_marginRight="@dimen/canle20" android:layout_marginLeft="@dimen/canle20" android:paddingBottom="@dimen/canle10"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/tvDK" android:textStyle="bold" android:textSize="@dimen/canle20" android:textColor="@color/mauchu" android:text="Login" android:paddingTop="@dimen/canle10" android:layout_marginRight="@dimen/canle10" android:layout_marginLeft="@dimen/canle10" android:paddingBottom="@dimen/canle10"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center" android:id="@+id/tvLMK" android:textSize="@dimen/kichthuocchu15" android:text="I've forgotten my passwods"/>
+
+</LinearLayout>
